@@ -12,7 +12,7 @@
 
      // console.log(Math.floor(Math.random()*(6-1+1)+1));
 
-     // array
+      array
      //const arr = [ 2, 35, 1, ]
      //console.log(arr.length);
      
@@ -116,11 +116,11 @@ console.log(d.getDate());
 
 
  /// assign use case  wants to combine the both the object 
-  // let obj1 = {a:1, b:2};
-   //let obj2  = { c:3, d:4};
+  let obj1 = {a:1, b:2};
+   let obj2  = { c:3, d:4};
 
-     //let obj3 = Object.assign(obj1,obj2);
-    // console.log(obj3,obj1);
+     let obj3 = Object.assign(obj1,obj2);
+     console.log(obj3,obj1);
 
 
     //nested object == ek bracket ke andar dusra object 
