@@ -63,3 +63,79 @@ console.log(d.toDateString());
 console.log(d.getDate());
 
  console.log(d.getFullYear());
+
+
+
+ // concept of object 
+     // create object    object used for to store key and value
+
+      //const obj = {
+        //name :"rohit",
+        //acoount_balance:420,
+        //gender: "male",
+        //age : "30"
+      //}
+
+          //console.log(obj);
+
+          // o/p    { name: 'rohit', acoount_balance: 420, gender: 'male', age: '30' }
+           
+
+           // to access any thing like name , age , gender/
+              //console.log(obj.name );
+              //console.log(obj.gender);
+              // o/p  rohit male
+
+             /// to get key of object 
+              //let obj = {
+                 //name  : "rohit",
+                 //age:30,
+                 //account_balance:420,
+                // gender:"male"
+             // };
+
+              // const arr = Object.keys(obj)
+               //console.log(arr);
+
+               //o/p in the form of arr [ 'name', 'age', 'account_balance', 'gender' ]
+
+               /// key value
+
+               //const arr2 = Object.entries(obj);
+               //console.log(arr2)
+
+               /// output in the form of array 
+
+             
+  //[ 'name', 'rohit' ],
+ // [ 'age', 30 ],
+ // [ 'account_balance', 420 ],
+ // [ 'gender', 'male' ]
+
+
+
+
+ /// assign use case  wants to combine the both the object 
+  // let obj1 = {a:1, b:2};
+   //let obj2  = { c:3, d:4};
+
+     //let obj3 = Object.assign(obj1,obj2);
+    // console.log(obj3,obj1);
+
+
+    //nested object == ek bracket ke andar dusra object 
+
+    const user = {
+       name : "rohit",
+       balance: 420,
+       address: {
+            pincode: 246149,
+           city: "kotdwar",
+       }
+    }
+
+     // now to access of nested object//
+
+     console.log(user.address.pincode);
+
+     // o/p  246149
