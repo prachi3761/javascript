@@ -1,20 +1,20 @@
 
 //maths//
-//let num1 = 23.5;
- //console.log(Math.floor(num1));//
+let num1 = 23.5;
+ console.log(Math.floor(num1));//
  //o/p 23
   // 1-10// generate 
-    //console.log(Math.floor(Math.random()*10)+1)//
+    console.log(Math.floor(Math.random()*10)+1)//
        // generate 11-20 
-    //console.log(Math.floor(Math.random()*10)+11);
+    console.log(Math.floor(Math.random()*10)+11);
      //ludo 
      //to generate 1-6
 
-     // console.log(Math.floor(Math.random()*(6-1+1)+1));
+      console.log(Math.floor(Math.random()*(6-1+1)+1));
 
       array
-     //const arr = [ 2, 35, 1, ]
-     //console.log(arr.length);
+     const arr = [ 2, 35, 1, ]
+     console.log(arr.length);
      
      //console.log(arr.at(-1));
      // at is latest , negative index le leta h 
@@ -26,15 +26,15 @@
       // pop remove value from the last of array 
       
 ///  add value at the starting of arrays 
-  //arr.unshift(10);
-  //arr.unshift(30);
-  //console.log(arr);
+  arr.unshift(10);
+  arr.unshift(30);
+  console.log(arr);
 //o/p[ 30, 10, 2, 35, 1 ]
 
 
 /// shift delete element from start 
-//arr.shift();
-//console.log(arr);
+arr.shift();
+console.log(arr);
 //o/p [ 10,2,35, 1]
 // delete operations  should not use it remove elemnts bcz jo space occupied rahega then can use that space kuki whole ban gya vaha par  
  
@@ -48,7 +48,7 @@
 //[ 35 ]
 
 //splice
- //console.log(arr.splice(1,2));
+ console.log(arr.splice(1,2));
 
 
  //dates concept 
