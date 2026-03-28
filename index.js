@@ -139,3 +139,105 @@ console.log(d.getDate());
      console.log(user.address.pincode);
 
      // o/p  246149
+
+
+
+// functions concept === block of code 
+     //like koi kam bar bar karna h to usko function use karke ek bar likh ke usko bar bar print kara sakte h 
+//   bar bar likha nhi pdega statement to print something 
+
+
+//lets take example
+
+//function greet() {
+
+ // console.log("hello bhai");
+  //console.log("mein bahdiya hu");
+
+//}
+  // isko agar print karna h to call karna padega function ko
+
+
+  // greet();
+   //greet();
+   /// aab ye print hoga 2 bar agar function use nhi akrte to bar bar same line likhni hoti 
+//o/p =  hello bhai
+        //mein bahdiya hu
+        // hello bhai
+        //mein bahdiya hu
+        //2 bar likha h kyuki do bar function call kiya h
+
+/// add program 
+
+    //thse number1 and number2 are parameters
+ //function sum(number1, number2){
+  //console.log(number1+number2)
+//
+ //};
+
+ //sum karna h to aab function ko call karo
+
+ //thse numbers are argument which are passing in parameters
+ //sum(3,5);
+
+ //op  8
+
+
+ // mutiplication program;
+  // function multiplication(number1 , number2){
+    // console.log(number1 * number2)
+   //};
+
+      //multiplication(3,5)
+
+      //op 15
+
+      //arrow function    mei functio likhne ki jarurat nhi h bas arrow ae kam chal jayega 
+        //const sum = (number1, number2)=>{
+          //return number1+number2;
+
+       // }
+
+       // console.log(sum(3,4));
+
+////      op   7
+
+  /// direct function likhne ki jarurat nhi h 
+    //const cube = number => number*number*number;
+    //console.log(cube(8));
+  //op      512
+
+
+
+  /// if -else statement
+
+   //let age =98;
+
+    //if(age>=18)  {
+
+      // console.log("eligible for voting ")
+    //}
+
+   //else  {
+
+     //console.log("not eligible for vote ");
+   //}
+
+/// op  eligible for voting 
+
+
+//switch statement  === multiple conditions 
+   switch ( new Date(). getDate())
+   {
+     case 0:
+           console.log("sunday");
+            break ;
+
+        case 1:
+             console.log("monday");
+                break;
+         case 2:
+              console.log("tuesday");
+                  break;
+   }
+
