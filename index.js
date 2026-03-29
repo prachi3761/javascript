@@ -69,14 +69,14 @@ console.log(d.getDate());
  // concept of object 
      // create object    object used for to store key and value
 
-      //const obj = {
+      const obj = {
         //name :"rohit",
         //acoount_balance:420,
         //gender: "male",
         //age : "30"
       //}
 
-          //console.log(obj);
+          console.log(obj);
 
           // o/p    { name: 'rohit', acoount_balance: 420, gender: 'male', age: '30' }
            
@@ -89,9 +89,9 @@ console.log(d.getDate());
              /// to get key of object 
               //let obj = {
                  //name  : "rohit",
-                 //age:30,
+                 age:30,
                  //account_balance:420,
-                // gender:"male"
+                 gender:"male"
              // };
 
               // const arr = Object.keys(obj)
@@ -151,8 +151,8 @@ console.log(d.getDate());
 
 //function greet() {
 
- // console.log("hello bhai");
-  //console.log("mein bahdiya hu");
+   console.log("hello bhai");
+  console.log("mein bahdiya hu");
 
 //}
   // isko agar print karna h to call karna padega function ko
@@ -184,7 +184,7 @@ console.log(d.getDate());
 
 
  // mutiplication program;
-  // function multiplication(number1 , number2){
+   function multiplication(number1 , number2){
     // console.log(number1 * number2)
    //};
 
