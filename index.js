@@ -44,8 +44,8 @@ console.log(arr);
  //true
   /// slice == tukda value ke bich ka 
  //console.log(arr.slice(1,2));
- //[ 2, 35, 1 ]
-//[ 35 ]
+ [ 2, 35, 1 ]
+[ 35 ]
 
 //splice
  console.log(arr.splice(1,2));
