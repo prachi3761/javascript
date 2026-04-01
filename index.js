@@ -241,3 +241,133 @@ console.log(d.getDate());
                   break;
    }
 
+    
+   /// for loop
+
+   //const arr = [ 10,20,11];
+   //for (let value of arr)
+   //{
+   //  console.log(value);
+   //}
+
+   // o/p 10
+         // 20
+          //11
+
+
+
+  // dont use for loop on objects 
+
+  //const obj = {
+    //name: "chavi",
+
+    //age: 11,
+
+    //gender: "female"
+  //};
+
+  //for (let value of obj) {
+     //console.log(value);
+  //}
+  // op will be not ittrable  object itrate nhi kar sakte h but array hote h  
+
+
+  // call back function == ek function ko call kareke dusare function ko call kar sakte h 
+
+  //function name () {   // function 1 
+
+    //console.log("hello i am name ");
+  //}
+
+
+     //function greet() {      /// function 2
+      //console.log("i am call back function");
+
+
+     //}
+
+
+          // now calling the function 
+
+          //name();     /// calling only first function 
+
+          //name(greet);    /// first function ke andar dusare function ko call kar diya use call back function kahte h 
+              
+          /// output    hello i am name    answer for when we called first function 
+                       //hello i am name        ans when we called  first function but inside its arugument we put the scond arguments name 
+          
+    /// fetching data from backend 
+
+       //function fetchData(){
+         //console.log("i am fetching data");
+
+       //}
+
+       //setInterval(fetchData, 5000);    //time given ki kitne time mei data fetch karna h    yaha 5000 diya h means 5 sec mei fetch hoga 
+                      
+       
+           // output
+           //i am fetching data
+//i am fetching data
+//i am fetching data
+//i am fetching data
+//i am fetching data
+// continously fetch hota rahega  har 5 sec mei 
+
+
+/// for each   se bhi call function call kar sakte h 
+
+  //let arr = [10, 20, 30, 40];
+  //arr.forEach(function(num){
+      //console.log(num);
+        
+  //})
+
+   // op 
+   //10
+   //20
+  //30
+   //40
+
+   // filter    // === //data ko filter karta h 
+
+    //let arr = [ 10,20, 30, 40];
+
+     //const result = arr.filter((num)=> { 
+       // return  num%2==0
+
+    //})
+
+
+     //console.log(result);  //vahi filter karega jo divisible by 2 h 
+
+          // output      [ 10, 20, 30, 40 ]
+
+            /// map   matlab h ki result ko modify kar sakte h bas   jaise    num*num   example   10*10  ==  100,  20*20 = 400
+            /// difference between map and filter     filter mei value filter hoti based on condtion and map mei valur ko modify kar sakte h 
+            //const arr = [10,20,30]
+
+          //const result = arr.map((num)=> {
+             //return num*num
+          //});
+
+
+           //console.log(result);
+
+
+              // output      [ 100, 400, 900 ]
+
+      //const arr = [10,20,30];
+
+      //const result = arr.filter((num)=> num%2==0).map((num)=> num*num);
+
+            //  console.log( const result)
+
+        // output [ 100, 400, 900 ]
+
+         // iske output mei jo filter se excute hoga usse hi map implement hoga 
+          
+          //ex    10 divisible h 2 se to aage jake map implement hoga like    10*10
+                 //jo value true nhi h for filter vo excute nhi hogi map tak nhi jaeygi
+
+
