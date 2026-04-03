@@ -371,3 +371,53 @@ console.log(d.getDate());
                  //jo value true nhi h for filter vo excute nhi hogi map tak nhi jaeygi
 
 
+     to get property 
+
+
+    //  let obj  = {
+    //     name:"rohit",
+    //     age:10
+    //  }
+
+    //     let curr = " name";
+    //     console.log(obj.hasOwnProperty(curr));
+
+
+
+       /// set ==  stores  unique values . which allows us to store the value without duplicates   which make it  diffrent from arrays.    
+             
+        // const Set1 = new Set([10,20,30,40]);
+        //  console.log(Set1);
+
+        //  // output     { 10, 20, 30, 40 }
+
+
+
+          // const set1 = new Set();
+          // set1.add(4);
+          // set1.add(6)
+          // set1.add("rohit")
+          // set1.add(30);
+
+          // // to delete the element 
+
+          // set1.delete(6);
+          // console.log(set1.size);
+
+          /// output 3
+
+
+
+// union of two set
+
+ let set1 = new Set([10, 20, 30,40]);
+ let set2 = new Set([10,20,30,40]);
+
+  let set3 = new Set([...set1,...set2]);// yaha par sari valur h set 1 ki and set 2 ki bhi 
+
+  console.log(set3);
+
+
+  //output   { 10, 20, 30, 40 }
+
+
