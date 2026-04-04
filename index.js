@@ -419,5 +419,33 @@ console.log(d.getDate());
 
 
   //output   { 10, 20, 30, 40 }
+    hoisting in js  is where variable and function declarations are moved to the top of their containing scope during the compilatioon pahse before the code has been executed
+   
+
+
+     /// hoisting means   ki variable ki declaration top par hoti h 
+
+     //like   var x = underfined;
+     //let y ;
+    
+    //   greet();
+
+    //  function greet() {
+
+    //   console.log("hello man ");
+
+    //  }
+
+     /// agr iss function iske uppar se call karnege tab bhi ye call ho jayega  
+
+     // output    hello man 
+
+
+     // this keyword 
+
+      // in js   all funtions are stored in global object
+      // math.random ,   setintervals 
+
+      
 
 
