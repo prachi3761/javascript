@@ -446,6 +446,29 @@ console.log(d.getDate());
       // in js   all funtions are stored in global object
       // math.random ,   setintervals 
 
-      
+      ///
+
+      /// intro to dom in js 
+
+
+      /// document object model
+    
+
+       //console.log("hello coder ");
+
+//        document.getElementById("first")
+// <h1 id=​"first" class=​"header1">​hello coder army​</h1>​
+// // to get access of element by class name 
+// undefined
+// const obj1= document.getElementsByClassName("header1")
+// undefined
+// obj1
+// HTMLCollection(2) [h1#first.header1, h2#second.header1, first: h1#first.header1, second: h2#second.header1]
+// ///to change background color
+// undefined
+// obj1[1].style.backgroundColor = "Pink";
+// 'Pink'
+
+  
 
 
