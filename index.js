@@ -469,6 +469,54 @@ console.log(d.getDate());
 // obj1[1].style.backgroundColor = "Pink";
 // 'Pink'
 
+/// new basic project  to implement   time interval 
+// function timing(){
+//   const timer = document.getElementById('root');
+
+//   const now = new Date();
+//   const IndianTime = now.toLocaleTimeString();
+//   timer.innerHTML = IndianTime;
+// }
+ 
+// setInterval(timing,1000);  // 10sec baad time change hoga 
+
+//  const timer = document.getElementById('root');
+//   timer.style.fontSize = "100px";
+//   timer.style.display ="flex";
+//   timer.style.height  ="100vh";
+//   timer.style.justifyContent = "center";
+//   timer.style.alignItems = "center";
+   
+
+
+/// accessing css selector 
+   //  query selector se humane yaha par id select kar lii 
+  // const id =  document.querySelector('#first');
+
+  //       //uss old id mei likha h ki hello coder army 
+
+
+  //       // yaha par usko change kiya gya h
+
+  //       id.innerHTML = "hello Money";
+
+  //       ///output hello coder amry ke place par hello money aa gya h
+
+  //         //if we want to change background color
+
+  //         const id2  = document.querySelector('.header2');
+  //         id2.style.backgroundColor = "pink";
+
+//// yaha par humne header ka background color change kar liya h
+
+
+/// accessing by relationships
+
+// const list  = document.querySelector('li');
+//   console.log(list.parentElement);
+//   console.log(list.parentNode);
+
+    
   
 
 
