@@ -516,7 +516,35 @@ console.log(d.getDate());
 //   console.log(list.parentElement);
 //   console.log(list.parentNode);
 
-    
+
+
+    created element 
+        //html par ek list h usme ek elment add karna vahi kiya h
+// const element = document.createElement('li');
+// element.innerHTML = "TS";
+
+// const parent  = document.getElementById("root");
+// parent.appendChild(element);
+
+
+//to  add multiple elements
+
+// function attach(content) {
+//   const element =  document.createElement('li');
+
+//   element.innerHTML = content;
+   
+//   const parent  =  document.getElementById("root");
+
+//   parent.append(element);
+// };
+
+// attach("TS");
+
+// attach("react");g
+
+// attach("node");
+
   
 
 
