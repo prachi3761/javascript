@@ -99,3 +99,44 @@ body {
     }
 
 }
+
+
+
+/// button par ka structure  and uski background ko color kiya h
+
+body {
+    background: black;
+
+    margin: 0px;
+    padding: 0px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+  button {
+    width: 100px;
+    height: 100px;
+
+    border: 1px solid black;
+
+  }
+
+
+  #red{
+    background-color: brown;
+  }
+
+
+  #blue {
+    background-color: blue;
+
+
+  }
+
+  #orange {
+
+    background-color: purple;
+  }
